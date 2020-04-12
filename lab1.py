@@ -39,9 +39,6 @@ def calculate_sms_cost(data, phone_number):
         if data['msisdn_origin'][i] == phone_number:
             sms_cost += data['sms_number'][i] * sms_rate
 
-        if data['msisdn_dest'][i] == phone_number:
-            sms_cost += data['sms_number'][i] * sms_rate
-
     return sms_cost
 
 def main():
