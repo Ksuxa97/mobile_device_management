@@ -1,0 +1,5 @@
+pandas
+num2words
+PyPDF4
+reportlab
+matplotlib
